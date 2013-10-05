@@ -1,0 +1,81 @@
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "functions_informally.sml";
+[opening functions_informally.sml]
+val pow = fn : int * int -> int
+val it = () : unit
+- pow(3, 2)
+= ;
+val it = 9 : int
+- pow(112, 38383);
+
+uncaught exception Overflow [overflow]
+  raised at: <file functions_informally.sml>
+- pow(2, 20);
+val it = 1048576 : int
+- pow(20, 20);
+
+uncaught exception Overflow [overflow]
+  raised at: <file functions_informally.sml>
+- pow(13, 5)
+= ;
+val it = 371293 : int
+- pow(2, 8)
+= ;
+val it = 256 : int
+- pow(2, -2);
+stdIn:9.8 Error: expression or pattern begins with infix identifier "-"
+stdIn:9.4-9.11 Error: operator and operand don't agree [literal]
+  operator domain: 'Z * 'Z
+  operand:         int
+  in expression:
+    - 2
+- pow(2, -3);
+stdIn:1.9 Error: expression or pattern begins with infix identifier "-"
+stdIn:1.5-1.12 Error: operator and operand don't agree [literal]
+  operator domain: 'Z * 'Z
+  operand:         int
+  in expression:
+    - 3
+- 
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "functions_informally.sml";
+[opening functions_informally.sml]
+functions_informally.sml:10.13-10.16 Error: unbound type constructor: Int
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "functions_informally.sml";
+[opening functions_informally.sml]
+val pow = fn : int * int -> int
+val cube = fn : int -> int
+val sixtyfour = 64 : int
+val fortytwo = 42 : int
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "functions_informally.sml";
+[opening functions_informally.sml]
+val pow = fn : int * int -> int
+val cube = fn : int -> int
+val sixtyfour = 64 : int
+val fortytwo = 42 : int
+val it = () : unit
+- cube(38);
+val it = 54872 : int
+- cube(210);
+val it = 9261000 : int
+- cube(-1);
+stdIn:4.6 Error: expression or pattern begins with infix identifier "-"
+stdIn:4.6-4.8 Error: operator and operand don't agree [literal]
+  operator domain: 'Z * 'Z
+  operand:         int
+  in expression:
+    - 1
+- 
+
+Process sml finished
