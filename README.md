@@ -8,7 +8,10 @@ Gain new software skills and the concepts needed to learn new languages on your 
 ### Categories:
  - Computer Science: Software Engineering
 
-### Workload: 8-16 hours/week
+### University:
+ -  University of Washington
+ 
+### Workload: 8-16 hours/week:
  - Taught In: English
  - Subtitles Available In: English
 
