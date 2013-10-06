@@ -15,7 +15,7 @@ Gain new software skills and the concepts needed to learn new languages on your 
 ### Session: 
  - Oct 3rd 2013 (10 weeks long)	 
  
-# About the Course
+## About the Course
 Learn many of the concepts that underlie all programming languages. 
 Develop a programming style known as functional programming and contrast it with object-oriented programming. 
 Through experience writing programs and studying three different languages, learn the key issues in designing and using programming languages, 
@@ -26,7 +26,7 @@ you learn to think more deeply than in terms of the particular syntax of one lan
 The emphasis on functional programming is essential for learning how to write robust, reusable, composable, 
 and elegant programs – in any language.
 
-# Course Syllabus
+## Course Syllabus
 Note: About half the students in prior offerings report an estimated workload of 8-12 hours / week is accurate while most of the other half spent more time -- 15 hours / week or more. Workload naturally differs for different people depending on one's background. Do see the recommended-background section below.
 
 Topics (most of which may not mean anything to you until you take the course):
