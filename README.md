@@ -30,10 +30,6 @@ The emphasis on functional programming is essential for learning how to write ro
 and elegant programs – in any language.
 
 ## Course Syllabus
-Note: About half the students in prior offerings report an estimated workload of 8-12 hours / week is accurate while most of the other half spent more time -- 15 hours / week or more. Workload naturally differs for different people depending on one's background. Do see the recommended-background section below.
-
-Topics (most of which may not mean anything to you until you take the course):
-
  - Syntax vs. semantics vs. idioms vs. libraries vs. tools
  - ML basics (bindings, conditionals, records, functions)
  - Recursive functions and recursive types
