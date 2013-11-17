@@ -17,7 +17,7 @@ a.size
 a[3] = "hi"
 
 b = a + [true,false]
-c = [3,2,3] | [1,2,3]
+c = [3,2,3] | [1,2,3] # only matchings element [3,2,1]
 
 # array make fine tuples
 
